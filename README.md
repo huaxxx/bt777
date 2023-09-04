@@ -13,11 +13,11 @@ curl -sSO https://raw.githubusercontent.com/huaxxx/bt777/main/install/install_pa
 curl -sSO http://d.moe.ms/AAAAA/btpanel-v7.7.0/install/install_panel.sh && bash install_panel.sh
 ```
 
-
-
 #宝塔7.7原版一键开心脚本
 
+```Bash
 curl -sSO https://raw.githubusercontent.com/huaxxx/bt777/main/one_key_happy.sh && bash one_key_happy.sh
+```
 
 
 # 宝塔linux工具箱优化脚本
@@ -40,7 +40,11 @@ curl -sSO https://raw.githubusercontent.com/huaxxx/bt777/main/one_key_happy.sh &
 
 7.去除面板日志与网站绑定域名上报
 
-适用7.7版本：wget -O optimize.sh https://raw.githubusercontent.com/huaxxx/bt777/main/optimize.sh && bash optimize.sh
+适用7.7版本：
+
+```Bash
+wget -O optimize.sh https://raw.githubusercontent.com/huaxxx/bt777/main/optimize.sh && bash optimize.sh
+```
 
 适用7.9版本：wget -O optimize.sh http://f.cccyun.cc/bt/optimize_new.sh && bash optimize.sh
 
