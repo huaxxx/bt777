@@ -16,7 +16,7 @@ curl -sSO http://d.moe.ms/AAAAA/btpanel-v7.7.0/install/install_panel.sh && bash 
 #宝塔7.7原版一键开心脚本
 
 ```Bash
-curl -sSO https://raw.githubusercontent.com/huaxxx/bt777/main/one_key_happy.sh && bash one_key_happy.sh
+curl -sSO https://raw.githubusercontent.com/ztkink/bthappy/main/one_key_happy.sh && bash one_key_happy.sh
 ```
 
 
