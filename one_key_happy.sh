@@ -34,11 +34,11 @@ if [ -f ${plugin_file} ];then
     chattr -i /www/server/panel/data/plugin.json
     rm /www/server/panel/data/plugin.json
     cd /www/server/panel/data
-    wget https://cdn.jsdelivr.net/gh/ztkink/bthappy@latest/plugin.json
+    wget https://raw.githubusercontent.com/huaxxx/bt777/main/plugin.json
     chattr +i /www/server/panel/data/plugin.json
 else
     cd /www/server/panel/data
-    wget https://cdn.jsdelivr.net/gh/ztkink/bthappy@latest/plugin.json
+    wget https://raw.githubusercontent.com/huaxxx/bt777/main/plugin.json
     chattr +i /www/server/panel/data/plugin.json
 fi
 echo -e "插件商城开心结束."
