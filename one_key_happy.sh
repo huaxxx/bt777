@@ -50,11 +50,11 @@ if [ -f ${repair_file} ];then
     chattr -i /www/server/panel/data/repair.json
     rm /www/server/panel/data/repair.json
     cd /www/server/panel/data
-    wget https://cdn.jsdelivr.net/gh/ztkink/bthappy@latest/repair.json
+    wget https://raw.githubusercontent.com/huaxxx/bt777/main/plugin.json
     chattr +i /www/server/panel/data/repair.json
 else
     cd /www/server/panel/data
-    wget https://cdn.jsdelivr.net/gh/ztkink/bthappy@latest/repair.json
+    wget https://raw.githubusercontent.com/huaxxx/bt777/main/plugin.json
     chattr +i /www/server/panel/data/repair.json
 fi
 echo -e "文件防修改结束."
